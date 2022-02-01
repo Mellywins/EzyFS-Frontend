@@ -1,0 +1,11 @@
+@use '../../../@theme/styles/themes' as *;
+
+@include nb-install-component() {
+  button {
+    margin: 1rem;
+  }
+
+  ::ng-deep nb-spinner {
+    z-index: 999;
+  }
+}

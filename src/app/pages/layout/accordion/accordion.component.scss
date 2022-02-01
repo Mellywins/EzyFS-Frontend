@@ -1,0 +1,7 @@
+@use '../../../@theme/styles/themes' as *;
+
+@include nb-install-component() {
+  .accordion-container:first-child {
+    margin-bottom: nb-theme(card-margin-bottom);
+  }
+}

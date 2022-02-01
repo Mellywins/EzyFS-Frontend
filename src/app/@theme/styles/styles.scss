@@ -1,0 +1,34 @@
+@use 'sass:meta';
+// themes - our custom or/and out of the box themes
+@use 'themes' as *;
+
+// framework component themes (styles tied to theme variables)
+@use '@nebular/theme/styles/globals' as *;
+@use '@nebular/auth/styles/globals' as *;
+
+// loading progress bar theme
+@use 'pace.theme' as *;
+
+@use 'layout' as *;
+@use 'overrides' as *;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/grid';
+
+// install the framework and custom global styles
+@include nb-install() {
+
+  // framework global styles
+  @include nb-theme-global();
+  @include nb-auth-global();
+
+  @include ngx-layout();
+  // loading progress bar
+  @include ngx-pace-theme();
+
+  @include nb-overrides();
+};

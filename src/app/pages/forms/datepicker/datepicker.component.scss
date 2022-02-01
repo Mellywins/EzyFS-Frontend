@@ -1,0 +1,12 @@
+@use '../../../@theme/styles/themes' as *;
+
+@include nb-install-component() {
+  nb-card-body {
+    display: flex;
+    justify-content: space-between;
+
+    input {
+      width: 100%;
+    }
+  }
+}

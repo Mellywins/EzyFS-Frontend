@@ -1,0 +1,12 @@
+@use '../../../@theme/styles/themes' as *;
+
+@include nb-install-component() {
+  .toggle-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    @include nb-rtl(right, auto);
+    @include nb-rtl(left, 1.25rem);
+    cursor: pointer;
+  }
+}

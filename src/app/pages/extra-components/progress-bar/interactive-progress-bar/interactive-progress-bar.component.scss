@@ -1,0 +1,13 @@
+@use '../../../../@theme/styles/themes' as *;
+
+@include nb-install-component() {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  nb-progress-bar {
+    flex: 1;
+    margin: 0 1rem;
+  }
+}

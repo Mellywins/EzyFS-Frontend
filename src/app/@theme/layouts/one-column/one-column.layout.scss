@@ -1,0 +1,7 @@
+@use '../../styles/themes' as *;
+
+@include nb-install-component() {
+  .menu-sidebar ::ng-deep .scrollable {
+    padding-top: nb-theme(layout-padding-top);
+  }
+}

@@ -1,0 +1,23 @@
+@use '../../../../@theme/styles/themes' as *;
+@use '@nebular/theme/styles/global/breakpoints' as *;
+@import 'bootstrap/scss/mixins/breakpoints';
+
+@include nb-install-component() {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  padding: nb-theme(card-padding);
+
+  .header {
+    margin-left: 1rem;
+  }
+
+  .echart {
+    height: 75%;
+  }
+
+  @include media-breakpoint-down(sm) {
+    height: 50%;
+  }
+}

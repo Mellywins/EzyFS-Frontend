@@ -1,0 +1,7 @@
+@use '../../../../@theme/styles/themes' as *;
+
+@include nb-install-component() {
+  nb-tab {
+    padding: 1.25rem;
+  }
+}
