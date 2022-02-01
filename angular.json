@@ -155,6 +155,14 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/EzyFS-Frontend/",
+            "name": "EzyFS",
+            "email": "ezyfs2022@gmail.com"
+          }
         }
       }
     },
