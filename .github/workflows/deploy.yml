@@ -16,4 +16,4 @@ jobs:
           npm install
 
       - name: Deploy 🚀
-        run: npx ng deploy --no-silent --base-href=/EzyFS-Frontend/ --name="Mellywins" --email="zouaghi.wow1919@gmail.com"
+        run: npx ng deploy --repo=git@github.com:Mellywins/EzyFS-Frontend.git --no-silent --base-href=/EzyFS-Frontend/ --name="Mellywins" --email="zouaghi.wow1919@gmail.com"
