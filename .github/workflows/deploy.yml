@@ -16,4 +16,4 @@ jobs:
           npm install
 
       - name: Deploy 🚀
-        run: npx ng deploy
+        run: npx ng deploy --base-href=/EzyFS-Frontend/
