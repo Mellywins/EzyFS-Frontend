@@ -1,6 +1,6 @@
 <nb-card size="large">
   <nb-tabset fullWidth (changeTab)="changeTab($event)">
-    <nb-tab tabTitle="Orders">
+    <nb-tab tabTitle="Cryptographic Jobs">
       <div class="chart-container">
         <ngx-chart-panel-summary [summary]="chartPanelSummary"></ngx-chart-panel-summary>
         <ngx-chart-panel-header [type]="period"
@@ -9,7 +9,7 @@
         <ngx-orders-chart #ordersChart [ordersChartData]="ordersChartData"></ngx-orders-chart>
       </div>
     </nb-tab>
-    <nb-tab tabTitle="Profit" [lazyLoad]="true">
+    <nb-tab tabTitle="Archive Jobs" [lazyLoad]="true">
       <div class="chart-container">
         <ngx-chart-panel-summary [summary]="chartPanelSummary"></ngx-chart-panel-summary>
         <ngx-chart-panel-header [type]="period"
