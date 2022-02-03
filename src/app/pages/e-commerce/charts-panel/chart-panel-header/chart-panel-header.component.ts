@@ -44,11 +44,11 @@ export class ChartPanelHeaderComponent implements OnDestroy {
   setLegendItems(JobStateChartLegend) {
     this.chartLegend = [
       {
-        iconColor: JobStateChartLegend.firstItem,
+        iconColor: JobStateChartLegend.success,
         title: 'Completed',
       },
       {
-        iconColor: JobStateChartLegend.secondItem,
+        iconColor: JobStateChartLegend.all,
         title: 'Failed',
       },
       {

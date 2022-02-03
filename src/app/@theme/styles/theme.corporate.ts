@@ -212,9 +212,9 @@ export const CORPORATE_THEME = {
     },
 
     JobStateChartLegend: {
-      firstItem: baseThemeVariables.success,
-      secondItem: baseThemeVariables.primary,
-      thirdItem: baseThemeVariables.bg3,
+      success: baseThemeVariables.success,
+      all: baseThemeVariables.primary,
+      failed: baseThemeVariables.bg3,
     },
 
     visitors: {
