@@ -177,8 +177,8 @@ export const CORPORATE_THEME = {
       secondShadowLineDarkBg: 'rgba(0, 0, 0, 0)',
 
       // third line
-      thirdLineGradFrom: baseThemeVariables.success,
-      thirdLineGradTo: baseThemeVariables.successLight,
+      AllJobsGradFrom: '#cfd1d4',
+      AllJobsGradTo: '#d7dade',
 
       thirdAreaGradFrom: 'rgba(0, 0, 0, 0)',
       thirdAreaGradTo: 'rgba(0, 0, 0, 0)',
@@ -206,8 +206,8 @@ export const CORPORATE_THEME = {
       secondLineShadow: 'rgba(0, 0, 0, 0)',
 
       // third bar
-      thirdLineGradFrom: baseThemeVariables.success,
-      thirdLineGradTo: baseThemeVariables.success,
+      AllJobsGradFrom: baseThemeVariables.success,
+      AllJobsGradTo: baseThemeVariables.success,
       thirdLineShadow: 'rgba(0, 0, 0, 0)',
     },
 

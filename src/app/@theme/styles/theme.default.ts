@@ -183,8 +183,8 @@ export const DEFAULT_THEME = {
       secondShadowLineDarkBg: 'rgba(0, 0, 0, 0)',
 
       // third line
-      thirdLineGradFrom: baseThemeVariables.success,
-      thirdLineGradTo: baseThemeVariables.successLight,
+      AllJobsGradFrom: baseThemeVariables.success,
+      AllJobsGradTo: baseThemeVariables.successLight,
 
       thirdAreaGradFrom: 'rgba(0, 214, 143, 0.2)',
       thirdAreaGradTo: 'rgba(0, 214, 143, 0)',
@@ -212,8 +212,8 @@ export const DEFAULT_THEME = {
       secondLineShadow: 'rgba(0, 0, 0, 0)',
 
       // third bar
-      thirdLineGradFrom: baseThemeVariables.success,
-      thirdLineGradTo: baseThemeVariables.successLight,
+      AllJobsGradFrom: baseThemeVariables.success,
+      AllJobsGradTo: baseThemeVariables.successLight,
       thirdLineShadow: 'rgba(0, 0, 0, 0)',
     },
 

@@ -146,10 +146,10 @@ export class ProfitChartComponent implements AfterViewInit, OnDestroy, OnChanges
             normal: {
               color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
                 offset: 0,
-                color: eTheme.thirdLineGradFrom,
+                color: eTheme.AllJobsGradFrom,
               }, {
                 offset: 1,
-                color: eTheme.thirdLineGradTo,
+                color: eTheme.AllJobsGradTo,
               }]),
             },
           },

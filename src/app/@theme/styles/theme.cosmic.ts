@@ -177,8 +177,8 @@ export const COSMIC_THEME = {
       secondShadowLineDarkBg: baseThemeVariables.primary,
 
       // third line
-      thirdLineGradFrom: baseThemeVariables.success,
-      thirdLineGradTo: baseThemeVariables.successLight,
+      AllJobsGradFrom: baseThemeVariables.success,
+      AllJobsGradTo: baseThemeVariables.successLight,
 
       thirdAreaGradFrom: 'rgba(0, 214, 143, 0.7)',
       thirdAreaGradTo: 'rgba(0, 214, 143, 0.4)',
@@ -206,8 +206,8 @@ export const COSMIC_THEME = {
       secondLineShadow: 'rgba(0, 0, 0, 0)',
 
       // third bar
-      thirdLineGradFrom: baseThemeVariables.success,
-      thirdLineGradTo: baseThemeVariables.successLight,
+      AllJobsGradFrom: baseThemeVariables.success,
+      AllJobsGradTo: baseThemeVariables.successLight,
       thirdLineShadow: 'rgba(0, 0, 0, 0)',
     },
 

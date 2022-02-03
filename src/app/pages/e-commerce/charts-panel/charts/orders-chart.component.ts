@@ -133,7 +133,7 @@ export class OrdersChartComponent implements AfterViewInit, OnDestroy, OnChanges
       series: [
         this.getFirstLine(eTheme),
         this.getSecondLine(eTheme),
-        this.getThirdLine(eTheme),
+        this.getAllJobs(eTheme),
       ],
     };
   }
@@ -216,7 +216,7 @@ export class OrdersChartComponent implements AfterViewInit, OnDestroy, OnChanges
     };
   }
 
-  getThirdLine(eTheme) {
+  getAllJobs(eTheme) {
     return {
       type: 'line',
       smooth: true,
@@ -238,10 +238,10 @@ export class OrdersChartComponent implements AfterViewInit, OnDestroy, OnChanges
           type: eTheme.lineStyle,
           color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
             offset: 0,
-            color: eTheme.thirdLineGradFrom,
+            color: eTheme.AllJobsGradFrom,
           }, {
             offset: 1,
-            color: eTheme.thirdLineGradTo,
+            color: eTheme.AllJobsGradTo,
           }]),
         },
       },
