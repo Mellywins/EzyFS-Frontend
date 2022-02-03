@@ -48,20 +48,20 @@ export class ChartPanelHeaderComponent implements OnDestroy {
         title: 'Completed',
       },
       {
-        iconColor: JobStateChartLegend.all,
+        iconColor: JobStateChartLegend.failed,
         title: 'Failed',
       },
       {
-        iconColor: 'red',
+        iconColor: JobStateChartLegend.canceled,
         title: 'Canceled',
       },
       {
-        iconColor: JobStateChartLegend.fourthItem,
+        iconColor: JobStateChartLegend.paused,
         title: 'Paused',
       },
       {
-        iconColor: JobStateChartLegend.fifthItem,
-        title: 'All orders',
+        iconColor: JobStateChartLegend.all,
+        title: 'All Jobs',
       },
     ];
   }

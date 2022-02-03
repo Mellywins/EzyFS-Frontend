@@ -220,7 +220,10 @@ export const DEFAULT_THEME = {
     JobStateChartLegend: {
       success: baseThemeVariables.success,
       all: baseThemeVariables.primary,
-      failed: baseThemeVariables.bg3,
+      failed: baseThemeVariables.danger,
+      paused: baseThemeVariables.warning,
+      canceled:'gray',
+
     },
 
     visitors: {

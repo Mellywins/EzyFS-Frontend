@@ -214,7 +214,9 @@ export const COSMIC_THEME = {
     JobStateChartLegend: {
       success: baseThemeVariables.success,
       all: baseThemeVariables.primary,
-      failed: baseThemeVariables.bg2,
+      failed: baseThemeVariables.danger,
+      paused: baseThemeVariables.warning,
+      canceled:'#cfd1d4',
     },
 
     visitors: {
