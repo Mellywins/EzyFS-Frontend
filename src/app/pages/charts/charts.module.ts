@@ -59,5 +59,6 @@ const components = [
     NbCardModule,
   ],
   declarations: [...routedComponents, ...components],
+  exports:[ChartjsPieComponent,D3PieComponent,D3AdvancedPieComponent]
 })
 export class ChartsModule {}

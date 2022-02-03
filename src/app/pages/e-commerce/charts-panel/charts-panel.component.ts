@@ -6,7 +6,6 @@ import { ProfitChartComponent } from './charts/profit-chart.component';
 import { OrdersChart } from '../../../@core/data/orders-chart';
 import { ProfitChart } from '../../../@core/data/profit-chart';
 import { OrderProfitChartSummary, OrdersProfitChartData } from '../../../@core/data/orders-profit-chart';
-
 @Component({
   selector: 'ngx-ecommerce-charts',
   styleUrls: ['./charts-panel.component.scss'],
@@ -45,11 +44,11 @@ export class ECommerceChartsPanelComponent implements OnDestroy {
   }
 
   changeTab(selectedTab) {
-    if (selectedTab.tabTitle === 'Profit') {
-      this.profitChart.resizeChart();
-    } else {
-      this.ordersChart.resizeChart();
-    }
+    // if (selectedTab.tabTitle === 'Profit') {
+    //   this.profitChart.resizeChart();
+    // } else {
+    //   this.ordersChart.resizeChart();
+    // }
   }
 
   getOrdersChartData(period: string) {

@@ -3,10 +3,14 @@
     <nb-tab tabTitle="Cryptographic Jobs">
       <div class="chart-container">
         <ngx-chart-panel-summary [summary]="chartPanelSummary"></ngx-chart-panel-summary>
-        <ngx-chart-panel-header [type]="period"
+        <!-- <ngx-chart-panel-header [type]="period"
                                 (periodChange)="setPeriodAndGetChartData($event)">
         </ngx-chart-panel-header>
-        <ngx-orders-chart #ordersChart [ordersChartData]="ordersChartData"></ngx-orders-chart>
+        <ngx-orders-chart #ordersChart [ordersChartData]="ordersChartData"></ngx-orders-chart> -->
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+       <ngx-d3-pie> </ngx-d3-pie></div>
+       </div>
       </div>
     </nb-tab>
     <nb-tab tabTitle="Archive Jobs" [lazyLoad]="true">
