@@ -211,7 +211,7 @@ export const CORPORATE_THEME = {
       thirdLineShadow: 'rgba(0, 0, 0, 0)',
     },
 
-    orderProfitLegend: {
+    JobStateChartLegend: {
       firstItem: baseThemeVariables.success,
       secondItem: baseThemeVariables.primary,
       thirdItem: baseThemeVariables.bg3,

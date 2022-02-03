@@ -27,10 +27,10 @@ export class ChartPanelHeaderComponent implements OnDestroy {
     this.themeService.getJsTheme()
       .pipe(takeWhile(() => this.alive))
       .subscribe(theme => {
-        const orderProfitLegend = theme.variables.orderProfitLegend;
+        const JobStateChartLegend = theme.variables.JobStateChartLegend;
 
         this.currentTheme = theme.name;
-        this.setLegendItems(orderProfitLegend);
+        this.setLegendItems(JobStateChartLegend);
       });
 
       this.breakpoints = this.breakpointService.getBreakpointsMap();
@@ -41,14 +41,14 @@ export class ChartPanelHeaderComponent implements OnDestroy {
         });
   }
 
-  setLegendItems(orderProfitLegend) {
+  setLegendItems(JobStateChartLegend) {
     this.chartLegend = [
       {
-        iconColor: orderProfitLegend.firstItem,
+        iconColor: JobStateChartLegend.firstItem,
         title: 'Completed',
       },
       {
-        iconColor: orderProfitLegend.secondItem,
+        iconColor: JobStateChartLegend.secondItem,
         title: 'Failed',
       },
       {
@@ -56,11 +56,11 @@ export class ChartPanelHeaderComponent implements OnDestroy {
         title: 'Canceled',
       },
       {
-        iconColor: orderProfitLegend.fourthItem,
+        iconColor: JobStateChartLegend.fourthItem,
         title: 'Paused',
       },
       {
-        iconColor: orderProfitLegend.fifthItem,
+        iconColor: JobStateChartLegend.fifthItem,
         title: 'All orders',
       },
     ];
