@@ -9,20 +9,20 @@ export class OrdersProfitChartService extends OrdersProfitChartData {
 
   private summary = [
     {
-      title: 'Marketplace',
-      value: 3654,
+      title: 'Total Jobs',
+      value: 25,
     },
     {
       title: 'Last Month',
-      value: 946,
+      value: 22,
     },
     {
       title: 'Last Week',
-      value: 654,
+      value: 15,
     },
     {
       title: 'Today',
-      value: 230,
+      value: 3,
     },
   ];
 

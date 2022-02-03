@@ -4,4 +4,5 @@ export enum NgxLegendItemColor {
   LIGHT_PURPLE = 'light-purple',
   BLUE = 'blue',
   YELLOW = 'yellow',
+  RED = 'red'
 }
